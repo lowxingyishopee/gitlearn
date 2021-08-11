@@ -1,0 +1,2 @@
+#https://stackoverflow.com/questions/25906192/git-ls-files-in-bare-repository
+git ls-tree --full-tree -r HEAD
