@@ -1,0 +1,24 @@
+https://www.atlassian.com/git/tutorials/using-branches
+https://www.atlassian.com/git/tutorials/undoing-changes/git-clean
+https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+
+1. Using Checkout to reset working directory
+
+git checkout -b branch-to-del 		#Create a new branch and checkout
+git branch  				#Checkout current branch
+git commit -a -m "branch commit" 	#Add new files and commit to new branch
+git checkout master 			#Checkout master branch without edits
+git branch -d branch-to-del 		#delete branch
+
+2. Using Clean to reset working directory
+
+git help clean 				#Use help command
+git clean -d -n				#See what untracked files will be clean
+git clean -d -f				#Enable Force:True to clean
+
+3. Use reset if changes were commited to rollback
+
+git reset --hard			#using reset
+
+
+
