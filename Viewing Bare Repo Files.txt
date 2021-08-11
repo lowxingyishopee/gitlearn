@@ -1,3 +1,8 @@
 #https://stackoverflow.com/questions/25906192/git-ls-files-in-bare-repository
 #https://www.iexplain.org/using-git-with-google-drive-a-tutorial/
+https://stackoverflow.com/questions/11935633/git-diff-between-a-remote-and-local-repository
+
 git ls-tree --full-tree -r HEAD
+
+git fetch origin master
+git diff --summary FETCH_HEAD
