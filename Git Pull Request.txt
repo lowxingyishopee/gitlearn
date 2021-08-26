@@ -1,0 +1,13 @@
+#region
+#Git Stuff
+#git stash
+# https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+
+#resolving merge conflicts
+# https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+# https://stackoverflow.com/questions/7901864/git-conflict-markers
+
+#Pull Request
+# https://swcarpentry.github.io/git-novice/08-collab/index.html
+# https://jarv.is/notes/how-to-pull-request-fork-github/
+#endregion

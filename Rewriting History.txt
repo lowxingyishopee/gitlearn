@@ -1,0 +1,18 @@
+https://stackoverflow.com/questions/424071/how-do-i-list-all-of-the-files-in-a-commit
+git diff-tree --no-commit-id --name-only -r bd61ad98
+git show --pretty="" --name-only bd61ad98
+
+https://rtyley.github.io/bfg-repo-cleaner/
+https://github.com/rtyley/bfg-repo-cleaner/issues/191
+https://adnanxteam.medium.com/how-to-clear-git-history-with-bfg-cleaner-5db4eb6c5a79
+
+Download jre
+Call bfg by: java -jar bfg-1.13.0.jar --help
+
+A clone is required because it will physically delete your files from the clone
+It adds a new repo on top of the new one
+
+This will require running gabage collector to clear
+
+git gc 
+

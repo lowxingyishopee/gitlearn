@@ -1,0 +1,55 @@
+https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+Add Remote Origin
+git remote add origin https://github.com/lowxingyishopee/HRBP-Metrics
+
+Pull From Origin (Remote Github)
+git pull origin master
+
+Push to Origin (Local master branch to Github)
+git push origin master
+
+See History of Commmits
+git log --oneline 
+
+See History of local changes
+git status
+
+Add to git Tracking
+git add --all
+
+Commmit new changes
+git commit
+
+See all branches
+git branch -a
+
+Switch between branches
+git checkout <branchname>
+
+Revert to previous commit
+git revert --no-commit <commit hash>..HEAD
+git commit
+
+Quick create
+new branch to work off on
+git checkout -b <newbranchname>
+
+Clone a repo off Github
+git clone https://github.com/hadley/nycflights13.git
+
+https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+$ git remote add origin "remote repository URL"
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+https://www.youtube.com/watch?v=CRlGDDprdOQ
+Git Merge vs rebase
+- 2 Alternatives, I find merge --squash better
+- Do not rebase on the central repo
+- Use rebase to update your local repo 
+
+https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/diffs/
+Reading diffs with Git 
